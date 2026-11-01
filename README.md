@@ -1,3 +1,7 @@
 # Tej Web Studio
-`npm install && npm run dev` → http://localhost:3000
-Edit all content in `src/data/site.ts`. Deploy: push to GitHub, import at vercel.com, click Deploy.
+Local: `npm install && npm run dev` -> http://localhost:3000
+Content: edit `src/data/site.ts`
+
+## Cloudflare Pages
+Build command: `npm run build`   Output directory: `out`
+Env var: `NODE_VERSION` = `20`
